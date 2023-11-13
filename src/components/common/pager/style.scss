@@ -1,0 +1,18 @@
+.pagination{
+
+    margin: auto;
+    margin-bottom: 2%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 1px 20px 2px #fa7188 ;
+
+    .btn-page {
+        background-color: blueviolet;
+        color: #fa7188;
+        border: #fa7188 solid 2px;
+    border-radius: 5px;
+    }
+
+}

@@ -1,0 +1,25 @@
+.container-signup {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto auto auto;
+    border-radius: 10px;
+    border: solid #fa7188 1.5px;
+    background-color: #f5d3d8;
+}
+
+.info-signup {
+    width: 80%;
+    font-size: 0.8em;
+    margin-top: 4%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #e4d7f0;
+}
+
+.btn-signup {
+    margin: 3% 0;
+    width: 30%;
+}

@@ -1,0 +1,27 @@
+.card-movies {
+  
+    color: rgb(58, 45, 45);
+    height: 60vh;
+    margin-bottom: 30%;
+    border-radius: 3px;
+    transition-duration: 0.9s;
+    border: solid 0.5px rgb(155, 42, 1);
+  
+    &:hover {
+      transform: scale(1.05);
+      transition-duration: 0.5s;
+      filter: grayscale(50%);
+      border-radius: 10%;
+    }
+  
+    .poster-movie {
+      width: 100%;
+      height: 45vh;
+    }
+  
+    .card-title {
+      height: 8vh;
+      font-weight: bold;
+    }
+  }
+  

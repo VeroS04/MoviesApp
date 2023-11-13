@@ -1,0 +1,29 @@
+.container-carousel {
+  margin: auto;
+  transition-duration: 0.9s;
+  filter: grayscale(65%);
+
+  &:hover {
+    transition-duration: 0.9s;
+    filter: grayscale(15%);
+    border-bottom: none;
+    transform: scale(1.02);
+  }
+
+  .carousel-item {
+    width: 90%;
+    height: 70vh;
+    left: 5%;
+  }
+
+  .carousel-caption {
+    background-color: #5301014b;
+    h3 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.2em;
+      font-weight: 700;
+    }
+  }
+}

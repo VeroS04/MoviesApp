@@ -1,0 +1,59 @@
+.container-nav {
+    padding-bottom: 3%;
+    border-bottom: solid rgb(114, 33, 3) 0.8px;
+    background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/film-movie-maker-youtube-channel-art-banner-design-template-452b518153abfc71ca929b93e3fc267f_screen.jpg?ts=1588568089);
+  
+    .container-nav-btn {
+      display: flex;
+      padding: 0% 1%;
+      justify-content: space-between;
+  
+      .btn-movies {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+  
+        .nav-link {
+          background-color: rgb(243, 224, 217);
+          border-radius: 10px;
+          border: solid 1.5px #fa7188;
+          margin-left: 3%;
+        }
+      }
+  
+      .title-nav {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+  
+        .text-nav {
+          padding: 0%;
+          font-size: 2.4em;
+          font-weight: bold;
+          color: #fa7188;
+          font-family: 'Rubik Iso', cursive;
+        }
+      }
+  
+      .btn-forms {
+        width: 18%;
+        display: flex;
+        justify-content: space-evenly;
+  
+        .nav-login {
+          text-decoration: none;
+          padding: 2.5%;
+          border-radius: 10px;
+          border: solid 1.5px #fa7188;
+          background-color: rgb(243, 224, 217);
+        }
+  
+        .nav-logout {
+          border-radius: 10px;
+          border: solid 1.5px #fa7188;
+          background-color: rgb(243, 224, 217);
+        }
+      }
+    }
+  }
+  

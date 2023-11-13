@@ -1,0 +1,48 @@
+.details {
+    width: 100%;
+
+    .poster {
+        width: 99%;
+        height: 100vh;
+        position:absolute;
+        opacity: 0.5;
+    }
+
+    .box-details-background {
+  
+      width: 100%;
+      position: relative;
+      
+      .img-box {
+        width: 80%;
+        display: flex;
+        left: 12%;
+        padding: 2%;
+        position: relative;
+
+        .img-poster {
+          width: 50%;
+          height: 90vh;
+        }    
+        
+        .box-details {
+          padding: 1%;
+          color: aliceblue;
+          width: 50%;
+          height: 90vh;
+        }
+      }
+
+      .btn-trailer {
+        font-weight: bold;
+        border: solid 1px white;
+        background-color: #3f1e14;
+      }
+  
+      .btn-trailer:hover {
+        font-weight: bold;
+        color: #3f1e14;
+        background-color: white;
+      }
+    }
+  }

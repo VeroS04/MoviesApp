@@ -1,0 +1,54 @@
+.container-loader {
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loader {
+    width: 48px;
+    height: 48px;
+    position: relative;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    display: block;
+    border: 50px solid transparent;
+    border-color: transparent transparent #b3712a #b3712a;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: mvx 1s infinite ease-in;
+  }
+  .loader:before {
+    left: -1px;
+    top: 1px;
+    border-color: #7db9b6 #7db9b6 transparent transparent;
+    animation-name: mvrx;
+  }
+  @keyframes mvx {
+    0%,
+    25% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, 50%) rotate(180deg);
+    }
+    100% {
+      transform: translate(0%, 0%) rotate(180deg);
+    }
+  }
+  @keyframes mvrx {
+    0%,
+    25% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+    50% {
+      transform: translate(50%, -50%) rotate(180deg);
+    }
+    100% {
+      transform: translate(0%, 0%) rotate(180deg);
+    }
+  }
